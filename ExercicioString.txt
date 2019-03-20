@@ -1,0 +1,26 @@
+package br.com.db1.db1start01;
+
+public class ExercicioString {
+	
+	public static String maiscula (String text1){
+		String mso = text1.toUpperCase();
+		return mso;
+	}
+	public static String minuscula (String text1){
+		String mso = text1.toLowerCase();
+		return mso;	}
+	
+	
+		
+		
+	public static void main (String[] args){
+		String text1 = "Matheus";
+		String maius = ExercicioString.maiscula(text1);
+		System.out.println(maius);
+		
+		
+		String mini = ExercicioString.minuscula(text1);
+		System.out.println(mini);
+	
+	}
+}

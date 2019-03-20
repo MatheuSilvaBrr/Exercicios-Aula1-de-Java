@@ -1,0 +1,29 @@
+ExercicioInteger 
+
+package br.com.db1.db1start01;
+
+public class ExercicioInteger {
+	
+	public static Integer subtra (Integer numero1, Integer numero2){
+		Integer subtra = numero1 - numero2;
+		return subtra;
+	}
+	public static Integer soma (Integer numero1, Integer numero2){
+		Integer soma = numero1 + numero2;
+		return soma;
+	}
+	
+	
+	public static void main (String[] args){
+		Integer resultado = ExercicioInteger.subtra(5, 3);
+		System.out.println(resultado);
+		
+		Integer resultado2 = ExercicioInteger.soma(9, 3);
+		System.out.println(resultado2);
+		
+		
+			
+	}
+	
+	
+}

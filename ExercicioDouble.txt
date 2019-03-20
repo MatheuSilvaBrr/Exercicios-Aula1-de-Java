@@ -1,0 +1,39 @@
+package br.com.db1.db1start01;
+
+public class ExercicoDouble {
+	
+	public static Double menor (Double n1, Double n2){
+		if  (n1 < n2)
+			return n1;
+					
+		return n2;
+	}
+	
+	public static Double menor (Double n1, Double n2, Double n3){
+		if  (n1 < n2 && n1 < n3)	
+			return n1;
+		
+		if (n2 < n1 && n2 < n3)
+			return n2;
+		
+		return n3;
+	}
+	
+	public static void main (String[] args){
+		double n1 = 6;
+		double n2 = 9;
+		double n3 = 3;
+		
+		Double resultado = ExercicoDouble.menor(n1, n2);
+		System.out.println(resultado);
+		
+		
+		
+		//Com três doubles
+		
+		Double resultado1 = ExercicoDouble.menor(n1, n2, n3);
+		System.out.println(resultado1);
+
+		
+	}	
+}
